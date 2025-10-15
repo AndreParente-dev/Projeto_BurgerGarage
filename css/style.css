@@ -16,7 +16,7 @@ body {
   background-color: #ebebeb;
 }
 
-/* ----- Tipografia ----- */
+
 h1 { 
   font-size: 2rem; 
   margin: 24px 0 8px; 
@@ -36,7 +36,7 @@ p {
   margin: 0 0 16px; 
 }
 
-/* ----- Cabeçalho ----- */
+
 .centro {
   text-align: center;
 }
@@ -78,7 +78,7 @@ nav a:hover {
   color: #000000;
 }
 
-/* ----- main ----- */
+
 .container-produtos {
   display: flex;
   flex-wrap: wrap; 
@@ -134,7 +134,7 @@ nav a:hover {
   font-size: 15px;
 }
 
-/* ----- Rodapé ----- */
+
 footer {  
   background-color:#cd1b1b; 
   color:#FFFFFF;            
