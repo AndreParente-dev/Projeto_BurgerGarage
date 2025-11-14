@@ -51,3 +51,16 @@ Próximos passos:
 -Integrar um sistema de pedidos online.
 -Coletar feedback de usuários para ajustes futuros.
 
+O Java Script foi utilizado para aplicar efeitos visuais ao nosso site deixando mais bonito e interativo, proporcionando ao usuário uma boa experiência. A interação mais interessante de criar foi a reação ao movimento do mouse. Foi observada que o DOM (document object model) permite que uma pagina estática tornasse dinâmica, assim sendo essencial para a interação do usuário na página web, tudo isso através da manipulação do DOM pelo Java Script.
+
+1-O que já está funcionando bem?
+-Navegação entre as paginas do site, links de contato, cards de produto e botões.
+
+2-Quais elementos HTML se repetem em várias páginas?
+-header, nav, section, artcle e footer
+
+3-Onde o layout "quebra" ou fica estranho?
+-No cabesalho\menu de navegaçao e rodapé.
+
+4-Quais melhorias fariam diferença real para o usuário do pequeno negócio?
+-

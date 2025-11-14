@@ -6,7 +6,7 @@
         <title>Inicio</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    
+     
     <body>
         <header>
             <img src="img/logo_burger_garage.jpg" alt="logo" width="100" height="100">
@@ -24,7 +24,7 @@
                 <article>
                     <h2>Burger's</h2>
                     <div class="card-produto">
-                        <img src="img/aston duplo.webp" alt="Aston Duplo Burger"> 
+                         <img id="fotoDestaque" src="img/aston duplo.webp" alt="Aston Duplo Burger" width="300" />
                         <div class="info-produto">
                             <h3>Aston Duplo Burger</h3>
                             <p>Pão australiano, duas carnes de 170g, queijo cheddar, maionese de alho, alface americano, tomate e bacon</p>
@@ -38,11 +38,11 @@
                 <article>
                     <h2>Entradas</h2>
                     <div class="card-produto">
-                        <img src="" alt=""> 
+                        <img src="img/" alt="Fritas com cheddar e bacon"> 
                         <div class="info-produto">
-                            <h3></h3>
-                            <p></p>
-                            <span class="preco"></span>
+                            <h3>Fritas com cheddar e bacon</h3>
+                            <p>Porção deliciosa de batata chedar coberto de bacon</p>
+                            <span class="preco">R$ 32,00</span>
                         </div>
                     </div>
                 </article>
@@ -89,27 +89,65 @@
                     </div>
                 </article>
             </section>
+            <section>
+                <article class="centro">
+                    <button id="meubotao" class="botao">Conheça nossa historia</button>
+                    <p id="mensagem"></p>
+                </article>
+            </section>
+
+            <section>
+                <article class="center">
+                    <h2>Nossa localização</h2>
+                    <p>segunda à domingo: 11h15m às 23h45m</p>
+                    <iframe
+                    src="https://maps.app.goo.gl/N25TJZ8CLdwQD35i8"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                    </iframe>
+                </article>
+            </section>
         </main>
 
         <footer>
             <div class="footer-container">
                 <div class="contato">
-                    <p>burgergaragebgp@gmail.com</p>
-                    <p><strong>Telefone:</strong> <a href="tel:+55619955344243">(55) 61 99553-4243</a></p>
-                    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/burgergaragebgp/" target="_blank">@burgergaragebgp</a></p>
-                    <P><strong>Ifood:</strong> <a href="https://www.ifood.com.br/delivery/brasilia-df/burguer-garage---hamburgueria-guara-guara-ii/fe2db376-885f-49a6-98af-2c3fcb4b08c4?utm_medium=share" target="_blank">Burguer Garage - Guará II</a></P>
+                    <a href="burgergaragebgp@gmail.com">
+                        <img src="img/" alt="Email">
+                    </a>
+
+                    <a href="tel:+55619955344243">
+                        <img src="img/" alt="Telefone">
+                    </a>
+
+                    <a href="https://www.instagram.com/burgergaragebgp/" target="_blank">
+                        <img src="img/" alt="Instagram">
+                    </a>
+
+                    <a href="https://www.ifood.com.br/delivery/brasilia-df/burguer-garage---hamburgueria-guara-guara-ii/fe2db376-885f-49a6-98af-2c3fcb4b08c4?utm_medium=share" target="_blank" arial-label="Ifood">
+                        <img src="img/" alt="Ifood">
+                    </a>      
                 </div>
 
-                <div class="logo">
+                <div class="center" class="logo">
                     <img src="img/logo_burger_garage.jpg" alt="logo Burger Garage" width="100">
                     <p>&copy; Desde 2020 - @burgergaragebgp Todos os direitos reservados</p>
                 </div>
+                <div class="footer-container">
+                <div class="contato">
+                    <a href="https://www.instagram.com/burgergaragebgp/" target="_blank">
+                        <img src="img/" alt="Instagram">
+                    </a>
 
-                <div class="endereço">
-                    <p>Quadra QE 34, 34 - Guará II, Brasília - DF, 71065-612</p>
-                    <p>segunda à domingo: 11h15m às 23h45m</p>
+                    <a href="https://www.ifood.com.br/delivery/brasilia-df/burguer-garage---hamburgueria-guara-guara-ii/fe2db376-885f-49a6-98af-2c3fcb4b08c4?utm_medium=share" target="_blank" arial-label="Ifood">
+                        <img src="img/" alt="Ifood">
+                    </a>      
                 </div>
             </div>
         </footer>
+    <script src="js/script.js"></script>
     </body>
 </html>
