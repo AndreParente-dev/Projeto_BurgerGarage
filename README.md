@@ -99,4 +99,4 @@ Integrações Realizadas:
 
 - Créditos: todas as imagens e icones ultilizados foram da propria hamburgeria Burger Garage.
 
-- Github Pages: 
+- Github Pages: https://github.com/AndreParente-dev/Projeto_BurgerGarage.git
